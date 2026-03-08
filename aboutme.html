@@ -33,7 +33,17 @@
 <!-- NOTE: You selected a new image. Please upload it to your server and replace "YOUR_IMAGE_URL_HERE" with the actual URL. -->
 
 <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+<script>
+// Source - https://stackoverflow.com/a/41491458
+// Posted by Ben, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-03-08, License - CC BY-SA 4.0
 
+var siteWidth = 1280;
+var scale = screen.width /siteWidth;
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+
+</script>
 
 
 <!-- META TAGS -->
@@ -51,6 +61,8 @@
 
 <!-- JAVASCRIPT FILES SOCIAL MEDIA -->
 <script type="text/javascript" src="js/clock.js"></script>
+
+</script>>
 
 
 <!-- GOOGLE FONT -->

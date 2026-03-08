@@ -7,7 +7,12 @@ Last Revised 03/2022
 
 */
 /* ==================== BODY, COLUMNS & CONTAINERS ==================== */
+html {
+	width: 100vw;
+}
+
 body {
+	width: 100vw;
 	margin: 0px;
 	padding: 0px;
 	overflow: auto;
@@ -90,8 +95,10 @@ a:hover {
 #hz-menu {
 	margin: 0px auto 0px auto;
 	padding: 152px 0px 0px 0px;
-	width: 700px;
-	height: 52px;
+	min-width: 375px;
+	max-width: 750px;
+	min-height: 26px;
+	max-height: 52px;
 	position: relative;
 	overflow: hidden;
 	list-style-type: none;
